@@ -844,7 +844,7 @@ clippy.Balloon.prototype = {
 
 };
 
-clippy.BASE_PATH = 'https://green-island-0ad424703.5.azurestaticapps.net/Agents/';
+clippy.BASE_PATH = 'https://green-island-0ad424703.5.azurestaticapps.net/agents/';
 
 clippy.load = function (name, successCb, failCb) {
     var path = clippy.BASE_PATH + name;
